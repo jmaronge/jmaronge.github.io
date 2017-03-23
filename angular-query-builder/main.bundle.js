@@ -518,7 +518,7 @@ module.exports = module.exports.toString();
 /***/ 460:
 /***/ (function(module, exports) {
 
-module.exports = "<div>\r\n    <h2>{{title}}</h2>\r\n    <div class=\"alert alert-info\">\r\n        <span [innerHTML]=\"output\"></span>\r\n    </div>\r\n    <!--<query-builder #qb (onQueryUpdated)=\"queryUpdated($event)\" \r\n                       [fields]=\"fields\" \r\n                       [operators]=\"operators\" \r\n                       [conditions]=\"conditions\"></query-builder>-->\r\n</div>"
+module.exports = "<div>\r\n    <h2>{{title}}</h2>\r\n    <div class=\"alert alert-info\">\r\n        <span [innerHTML]=\"output\"></span>\r\n    </div>\r\n    <query-builder #qb (onQueryUpdated)=\"queryUpdated($event)\" \r\n                       [fields]=\"fields\" \r\n                       [operators]=\"operators\" \r\n                       [conditions]=\"conditions\"></query-builder>\r\n</div>"
 
 /***/ }),
 
